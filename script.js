@@ -10,6 +10,10 @@ const listaActividades = document.getElementById("listaActividades");
 
 const mensajeVacio = document.getElementById("mensajeVacio");
 
+const year = document.getElementById("year");
+
+year.textContent = new Date().getFullYear();
+
 // Eventos
 
 btnAgregar.addEventListener("click", agregarActividad);
