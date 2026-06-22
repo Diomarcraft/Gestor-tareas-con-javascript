@@ -136,3 +136,23 @@ li div{
     color: #64748b;
     font-style: italic;
 }
+/* Estilos del footer */
+.footer{
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px;
+    font-family: Geneva, Verdana, sans-serif;
+    border-top: 3px solid #38bdf8;
+}
+.footer p{
+    margin: 5px 0;
+    font-size: 14px;
+}
+footer span {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #94a3b8;
+}
